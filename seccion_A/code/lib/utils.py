@@ -10,9 +10,10 @@ def display_grid(mode, trends, sorted_array, delitos_date):
 
     if mode == 'up':
         delitos = sorted_array[:5]
+        print('Delitos en ascenso')
     elif mode == 'down':
         delitos = np.flip(sorted_array[-5:])
-
+        print('Delitos en descenso')
     fig, ax = plt.subplots(2, 2, figsize=(10, 7))
 
     t = 0
