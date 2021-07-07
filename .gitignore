@@ -1,6 +1,8 @@
+# py complied
+__pycache__/
 
 # Jupyter Notebook
-seccion_A/code/notebooks/.ipynb_checkpoints
+.ipynb_checkpoints
 
 # PyCharm
 .idea/
